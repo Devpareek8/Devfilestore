@@ -85,10 +85,10 @@ async def gen_link_s(bot, message):
 async def gen_link_batch(bot, message):
     username = (await bot.get_me()).username
     if " " not in message.text:
-        return await message.reply("Use correct format.\nExample /batch https://t.me/MOVIES_WORLDZS.")
+        return await message.reply("Use correct format.\nExample /batch https://t.me/Bollywood_hd_movie_hindi_0.")
     links = message.text.strip().split(" ")
     if len(links) != 3:
-        return await message.reply("Use correct format.\nExample /batch https://t.me/MOVIES_WORLDZS.")
+        return await message.reply("Use correct format.\nExample /batch https://t.me/Bollywood_hd_movie_hindi_0.")
     cmd, first, last = links
     regex = re.compile("(https://)?(t\.me/|telegram\.me/|telegram\.dog/)(c/)?(\d+|[a-zA-Z_0-9]+)/(\d+)$")
     match = regex.match(first)
