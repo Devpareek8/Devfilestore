@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "24942826"))
 API_HASH = environ.get("API_HASH", "e3e2f3b65ef58634139ccd27d6b7d8cb")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7262274332:AAFD4IxvkwyGw_1HVzvsVZmXYBhdrigQtrY")
 
-PICS = (environ.get('PICS', 'https://vault.pictures/p/5843e814dab8434ca783248b102472cc')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/6cx.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6139759254 6570474744').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Jarvis_moviebot") # without @
 PORT = environ.get("PORT", "8080")
