@@ -11,11 +11,12 @@ class script(object):
 # Ask Doubt on telegram @KingVJ01
 
     
-    CAPTION = """❤️‍🔥<b>{file_name}</b>
+    CAPTION = """❤️‍🔥<b><a href="https://t.me/Bollywood_hd_movie_hindi_0">{file_name}</a>
+</b>
 
 ⚙️ sɪᴢᴇ : {file_size}
 
-❤‍🔥 Jᴏɪɴ ➥ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/Best_Movie_channel1)</b>"""
+❤‍🔥 Jᴏɪɴ ➥ [Backup ᴄʜᴀɴɴᴇʟs](https://t.me/Best_Movie_channel1)</b>"""
 
 
 # Don't Remove Credit Tg - @VJ_Botz
