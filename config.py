@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "e3e2f3b65ef58634139ccd27d6b7d8cb")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7262274332:AAFD4IxvkwyGw_1HVzvsVZmXYBhdrigQtrY")
 
 PICS = (environ.get('PICS', 'https://envs.sh/6cx.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6139759254 6570474744').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6914788581').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Jarvis_moviebot") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -89,7 +89,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://sticky-lanie-botdepoly-43d7eaa7.koyeb.app/")
+URL = environ.get("URL", "")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
