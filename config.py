@@ -62,7 +62,7 @@ CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
 # Enable - True or Disable - False
-PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
+PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True)
 
 # Verify Info :-
 VERIFY_MODE = bool(environ.get('VERIFY_MODE', False)) # Set True or False
@@ -89,7 +89,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "")
+URL = environ.get("URL", "http://essential-arabelle-botdepoly-76af1ff3.koyeb.app/")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
